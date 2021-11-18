@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.cities {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.city-bar {
+    width: 900px;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.card-row {
+width: 900px;
+margin: auto;
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.card {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+}
+
+.weather-img {
+    width: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.temps {
+display: flex;
+width: 150px;
+padding: 10px;
+justify-content: space-between;
+}
+
+.high-temp {
+    color: darkred;
+}
+
+.low-temp {
+    color: darkblue;
+}
+
+.cookie-msg {
+    position: fixed;
+    bottom: 10px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.cookie-text {
+    width: 650px;
+}
+
+.accept-btn {
+    width: 75px;
+    height: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: skyblue;
+}
